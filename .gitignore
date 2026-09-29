@@ -1,61 +1,65 @@
-# Compiled Object files
-*.slo
-*.lo
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Visual Studio / VS Code (IDE & Build Artifacts)
+# ==========================================
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.user
+*.sln.docstates
+
+# ==========================================
+# C++ Build Artifacts & Executables
+# ==========================================
+# Compiled object files
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Libraries and Archives
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
-# CMake build directories and files
-/build/
-/cmake-build-debug/
-/cmake-build-release/
-CMakeCache.txt
+# ==========================================
+# Build Tools (CMake, Make, Ninja)
+# ==========================================
+# CMake output directory
+build/
+Build/
+out/
 CMakeFiles/
-CMakeSettings.json
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
 
-# Visual Studio files
-.vs/
-*.vcxproj
-*.vcxproj.user
-*.vcxproj.filters
-*.sln
-*.suo
-*.db
-*.opendb
-
-# VS Code files
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-
-# Xcode files
-*.xcodeproj/
-*.xcworkspace/
-
-# Clang / Language Server cache
-.clangd/
-.cache/
-
-# Operating System files
-.DS_Store
-Thumbs.db
+# ==========================================
+# Logs and Temporary files
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.swp
