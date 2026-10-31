@@ -11,6 +11,8 @@ int main()
     // 10 : gia tri cho tham so dai
     // 20 : gia tri cho tham so rong
     HinhChuNhat hcn_v3(5, 6, 7); // 5,6,7 gia tri cua 3 tham so a,b,c
+    // goi phuong thuc
+    hcn.hien_thi();
 
     
     return 0;
